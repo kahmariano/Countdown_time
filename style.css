@@ -8,6 +8,7 @@
 * {
   margin: 0;
   font-family: 'Poppins:400 ';
+  background-color: black;
 }
 
 div#container_image {
@@ -44,8 +45,14 @@ p#title {
 }
 
 #img_footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-start;
+  height: 228.9999237060547px;
+  width: 1366px;
+  left: 0px;
+  top: 542.0000610351562px;
+  border-radius: 0px;
+  position: absolute;
+  width: 1366px;
+  height: 229px;
+  left: 0px;
+  top: 542px;
 }
