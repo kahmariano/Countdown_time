@@ -7,5 +7,45 @@
 
 * {
   margin: 0;
-  background-color: #6c63ff;
+  font-family: 'Poppins:400 ';
+}
+
+div#container_image {
+  height: 435px;
+  width: 607px;
+  left: 699px;
+  top: 150px;
+  border-radius: 0px;
+  position: absolute;
+  width: 607px;
+  height: 435px;
+  left: 699px;
+  top: 150px;
+}
+
+p#title {
+  height: 54px;
+  width: 486px;
+  left: 127px;
+  top: 187px;
+  border-radius: nullpx;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  /* identical to box height */
+
+  letter-spacing: 0.105em;
+  text-transform: uppercase;
+
+  color: var(--purple);
+}
+
+#img_footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
 }
