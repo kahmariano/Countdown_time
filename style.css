@@ -22,6 +22,10 @@ body {
   color: rgba(221, 219, 242, 0.26);
 }
 
+main {
+  display: flex; /*o display define o elemento como um flex container, torna seus filhos flex-itens.O flex faz com que se comportem como um elemento em bloco */
+}
+
 .footer-img {
   width: 1366px;
   height: 229px;
