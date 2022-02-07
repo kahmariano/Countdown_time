@@ -6,53 +6,25 @@
 }
 
 * {
-  margin: 0;
-  font-family: 'Poppins:400 ';
-  background-color: black;
+  margin: 0; /*zerando todas as margens*/
+  padding: 0; /*zerando todo o espaçamento interno*/
+  box-sizing: border-box; /*box-sizing altera a altura e largura padrão do box-model. border-box faz com que as propriedades incluam padding size,mas não incluem border nem margin*/
+  text-decoration: none; /*tirando todas as decorações predefinidas do texto */
 }
 
-div#container_image {
-  height: 435px;
-  width: 607px;
-  left: 699px;
-  top: 150px;
-  border-radius: 0px;
-  position: absolute;
-  width: 607px;
-  height: 435px;
-  left: 699px;
-  top: 150px;
+body {
+  background-color: #a19797;
 }
 
-p#title {
-  height: 54px;
-  width: 486px;
-  left: 127px;
-  top: 187px;
-  border-radius: nullpx;
-
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 54px;
-  /* identical to box height */
-
-  letter-spacing: 0.105em;
-  text-transform: uppercase;
-
-  color: var(--purple);
-}
-
-#img_footer {
-  height: 228.9999237060547px;
+.head-img {
   width: 1366px;
-  left: 0px;
-  top: 542.0000610351562px;
-  border-radius: 0px;
-  position: absolute;
+  height: 133px;
+  color: rgba(221, 219, 242, 0.26);
+}
+
+.footer-img {
   width: 1366px;
   height: 229px;
-  left: 0px;
   top: 542px;
+  color: rgba(221, 219, 242, 0.26);
 }
