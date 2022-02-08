@@ -13,12 +13,10 @@
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #f88c8c;
 }
 
-.head-img {
-  width: 1366px;
-  height: 133px;
+.header-img {
   color: rgba(221, 219, 242, 0.26);
 }
 
@@ -68,8 +66,6 @@ button {
 }
 
 .footer-img {
-  width: 1366px;
-  height: 229px;
   top: 542px;
   color: rgba(221, 219, 242, 0.26);
 }
