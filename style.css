@@ -24,6 +24,9 @@ body {
 
 main {
   display: flex; /*o display define o elemento como um flex container, torna seus filhos flex-itens.O flex faz com que se comportem como um elemento em bloco */
+  flex-direction: row; /*flex-diretion define a direção dos flex itens, row é padrão, ou seja não precisava colorcar nesse caso*/
+  align-items: center; /*align-itens alinha os flex itens de acordo com o eixo do container, center alinha ao centro*/
+  justify-content: space-around; /* justify-content alinha os itens de acordo com a direção, o space-around cria espaços entre os elementos */
 }
 
 .footer-img {
