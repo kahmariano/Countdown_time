@@ -15,9 +15,10 @@
 body {
   background-color: #f88c8c;
 }
-
 .header-img {
   color: rgba(221, 219, 242, 0.26);
+  width: 100%;
+  height: 100%;
 }
 
 main {
@@ -68,4 +69,6 @@ button {
 .footer-img {
   top: 542px;
   color: rgba(221, 219, 242, 0.26);
+  width: 100%;
+  height: 229px;
 }
