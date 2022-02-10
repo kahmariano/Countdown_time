@@ -1,7 +1,7 @@
-var today = new Date().getTime
+var today = new Date('2022-02-09')
+const birthday = new Date('2022-08-19')
 
-var dataFinal = new Date('2022-08-19 00:00:00').getTime()
+var interval = birthday.getTime() - today.getTime()
+var intervalreal = interval / (1000 * 3600 * 24)
 
-var intervalo = dataFinal - today
-
-alert(intervalo)
+document.write(intervalreal)
