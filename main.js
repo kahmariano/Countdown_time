@@ -1,7 +1,15 @@
-var today = new Date('2022-02-09')
+var today = new Date()
 const birthday = new Date('2022-08-19')
 
 var interval = birthday.getTime() - today.getTime()
-var intervalreal = interval / (1000 * 3600 * 24)
 
-document.write(intervalreal)
+function msToHMS(ms) {
+  const seg = ms / 1000
+  const dias = Math.floor(seg / (3600 * 24))
+  const horas = Math.floor((seg % (3600 * 24)) / 3600)
+  const min = Math.floor((seg % 3600) * 60)
+  const segs = Math.floor(seg % 60)
+  alert(dias + ' dias ' + horas + ':' + min + ':' + segs)
+}
+
+msToHMS(interval)
