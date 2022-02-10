@@ -14,11 +14,13 @@
 
 body {
   background-color: #f88c8c;
+  position: relative;
 }
+
 .header-img {
   color: rgba(221, 219, 242, 0.26);
-  width: 100%;
-  height: 100%;
+  width: 100%; /*largura*/
+  position: absolute;
 }
 
 main {
@@ -26,6 +28,9 @@ main {
   flex-direction: row; /*flex-diretion define a direção dos flex itens, row é padrão, ou seja não precisava colorcar nesse caso*/
   align-items: center; /*align-itens alinha os flex itens de acordo com o eixo do container, center alinha ao centro*/
   justify-content: space-around; /* justify-content alinha os itens de acordo com a direção, o space-around cria espaços entre os elementos */
+  height: 100vh;
+  width: 100%;
+  padding: 0 1.5rem;
 }
 
 section {
@@ -67,8 +72,8 @@ button {
 }
 
 .footer-img {
-  top: 542px;
   color: rgba(221, 219, 242, 0.26);
   width: 100%;
-  height: 229px;
+  position: absolute;
+  bottom: 0;
 }
