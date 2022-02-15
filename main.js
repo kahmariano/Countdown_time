@@ -20,20 +20,9 @@
 <p id="seconds">${seconds}</p>`
 
       elemento.innerHTML = newHtml
-
-      /*alert(
-    day +
-      ' dias ' +
-      hour +
-      ' horas' +
-      minute +
-      ' minutos' +
-      seconds +
-      ' segundos'
-  )*/
     }
 
-    setInterval(() => {
+    timer = setInterval(() => {
       var today = new Date()
       const birthday = new Date('2022-02-15')
 
@@ -57,6 +46,7 @@
           'concluido')
       }
     }
+    clearInterval(timer)
     stop()
   }
 })(window, document, undefined)
