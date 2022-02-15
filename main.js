@@ -39,9 +39,12 @@
 
       var interval = birthday.getTime() - today.getTime()
       convertMS(interval)
-      if (new Date() >= birthday) {
-        clearInterval(interval)
-        return 'tempo acabou'
+
+      if (interval > 0) {
+        return interval
+      } else interval <= 0
+      {
+        return clearInterval(interval, 'iuu')
       }
     }, 1000)
   }
