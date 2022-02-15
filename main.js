@@ -40,12 +40,23 @@
       var interval = birthday.getTime() - today.getTime()
       convertMS(interval)
 
+      // if (interval > 0) {
+      //   return interval
+      // } else interval <= 0
+      // {
+      //   return clearInterval(interval, 'iuu')
+      // }
+    }, 1000)
+
+    function stop(interval) {
       if (interval > 0) {
         return interval
       } else interval <= 0
       {
-        return clearInterval(interval, 'iuu')
+        return (document.getElementById('countdownContainer').innerHTML =
+          'concluido')
       }
-    }, 1000)
+    }
+    stop()
   }
 })(window, document, undefined)
