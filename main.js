@@ -24,17 +24,10 @@
 
     timer = setInterval(() => {
       var today = new Date()
-      const birthday = new Date('2022-02-15')
+      const birthday = new Date('2022-10-30')
 
       var interval = birthday.getTime() - today.getTime()
       convertMS(interval)
-
-      // if (interval > 0) {
-      //   return interval
-      // } else interval <= 0
-      // {
-      //   return clearInterval(interval, 'iuu')
-      // }
     }, 1000)
 
     function stop(interval) {
@@ -45,8 +38,8 @@
         return (document.getElementById('countdownContainer').innerHTML =
           'concluido')
       }
+      clearInterval(timer)
+      stop()
     }
-    clearInterval(timer)
-    stop()
   }
 })(window, document, undefined)
