@@ -14,10 +14,10 @@
       var elemento = document.getElementById('countdownContainer')
       console.log(elemento)
 
-      const newHtml = ` <p id="day">${day} :</p>
-<p id="hour">${hour} :</p>
-<p id="minutes">${minute}:</p>
-<p id="seconds">${seconds}</p>`
+      const newHtml = ` <p id="day">${day} dias  </p>
+<p id="hour">${hour} horas </p>
+<p id="minutes">${minute} minutos </p>
+<p id="seconds">  ${seconds} segundos </p>`
 
       elemento.innerHTML = newHtml
     }

@@ -44,28 +44,18 @@ section {
 h1 {
   color: var(--purple);
   font-family: 'Poppins'; /*indica a familia da fonte*/
-  font-size: 35px; /* define o tamanho do texto*/
+  font-size: 45px; /* define o tamanho do texto*/
   font-weight: bold; /* define o peso da fonte, padrão é normal*/
   line-height: 56px; /*define a altura de uma linha*/
   letter-spacing: 1px; /*define o comportamento do espaçamento entre uma letra e outra*/
   text-transform: uppercase; /* define como o texto vai aparecer por exemplo no caso define que todas a letras serão maiusculas*/
 }
 
-div#subtitulos {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-
-  background-color: rgb(151, 64, 64);
-  word-spacing: 100px;
-}
-
 div#countdownContainer {
-  background-color: rgb(177, 91, 91);
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  font-size: 50px;
+  flex-direction: column;
+  font-size: 30px;
+  margin: 0 0 10px 0;
 }
 
 h2 {
