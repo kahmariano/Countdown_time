@@ -13,7 +13,7 @@
 }
 
 body {
-  background-color: #f88c8c;
+  background-color: #f7f3f3;
   position: relative;
 }
 
@@ -56,12 +56,12 @@ div#subtitulos {
   flex-direction: row;
   align-items: flex-end;
 
-  background-color: #fff;
+  background-color: rgb(151, 64, 64);
   word-spacing: 100px;
 }
 
 div#countdownContainer {
-  background-color: #fff;
+  background-color: rgb(177, 91, 91);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
