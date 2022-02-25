@@ -14,9 +14,9 @@
       var elemento = document.getElementById('countdownContainer')
       console.log(elemento)
 
-      const newHtml = ` <p id="day">${day} </p>
-<p id="hour">${hour}</p>
-<p id="minutes">${minute}</p>
+      const newHtml = ` <p id="day">${day} :</p>
+<p id="hour">${hour} :</p>
+<p id="minutes">${minute}:</p>
 <p id="seconds">${seconds}</p>`
 
       elemento.innerHTML = newHtml
@@ -24,7 +24,7 @@
 
     timer = setInterval(() => {
       var today = new Date()
-      const birthday = new Date('2022-02-17')
+      const birthday = new Date('2022-08-19')
 
       var interval = birthday.getTime() - today.getTime()
 
