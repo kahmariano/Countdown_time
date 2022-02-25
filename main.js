@@ -17,7 +17,7 @@
       const newHtml = ` <p id="day">${day} dias  </p>
 <p id="hour">${hour} horas </p>
 <p id="minutes">${minute} minutos </p>
-<p id="seconds">  ${seconds} segundos </p>`
+<p id="seconds">${seconds} segundos </p>`
 
       elemento.innerHTML = newHtml
     }
